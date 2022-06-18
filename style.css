@@ -16,6 +16,36 @@
             font-family: "Escng";
             src: url('Escrow+Display+Condensed+Roman.woff2');
         }
+        @font-face {
+            font-family: "Retina light";
+            src: url('RetinaNarr-Light.woff2');
+        }
+        @font-face {
+            font-family: 'Retina Medium';
+            src: url('Retina-Medium.woff2');
+        }
+        @font-face {
+            font-family: 'Retina Book Italic';
+            src: url('Retina-Book (1).woff2');
+        }
+        body{
+            width: 100%;
+        }
+        .subscriberr{
+            display:flex;
+            position: absolute;
+            right: 50px;
+            top: 65px;
+            font-family: 'Retina';
+            font-size: 12px;
+        }
+        .subs{
+            margin-right: 10px;
+        }
+        .signin{
+            margin-left: 10px;
+        }
+  
 .toptop1{
     width: 270px;
     display: flex;
@@ -23,18 +53,147 @@
     margin-left: 0px;
 }
 .visible{
-    margin-left: 40px;
+    margin-left: 0px;
     margin-top: -10px;
     background-color: #EEEEEE;
+}
+.xxxxx{
+    visibility:hidden;
 }
 .lotdelistes{
     line-height: 28px;
     display: flex;
-  width: 100%;
+  width: 98%;
   height: 350px;
   background-color: #EEEEEE;
   display: none;
   z-index: 100;
+}
+.scro{
+    
+    visibility: hidden;  
+}
+.scroll{
+    position: fixed;
+    border-bottom: 1px solid #999999;
+    background-color: #FFFFFF;
+    z-index: 9999;
+    width: 99%;
+    height: 70px;
+    top: 0;
+    left: 0;
+    right: 0;
+    transition: all 0.2s ease-in-out;
+    visibility: visible;
+}
+.scro ul{
+    display: flex;
+    margin-top: -59px;
+}
+.lologo{
+    width: 240px;
+    margin-left: 535px;
+    margin-top: -10px;
+}
+.subsc1{
+    margin-right:10px;
+}
+.sign1{
+    margin-left: 7px;
+}
+.subscribingscroll{
+    position: relative;
+    margin-left: 1180px;
+    top: -55px;
+    font-family: 'Retina';
+    font-size: 13px;
+}
+.l1{
+margin-left: 150px;
+font-size: 15px;
+
+color:#999999;
+}
+.l2{
+margin-left: 10px;
+font-size: 15px;
+color:#999999;
+}
+.l3{
+    margin-left: 17px;
+    font-size: 15px;
+    color:#999999;
+}
+.l4{
+    margin-left: 17px;
+    font-size: 15px;
+    color:#999999;
+}
+.l5{
+    margin-left: 17px;
+    font-size: 15px;
+    color:#999999;
+}
+.l6{
+    margin-left: 17px;
+    font-size: 15px;
+    color:#999999;
+}
+.l7{
+    margin-left: 17px;
+    font-size: 15px;
+    color:#999999;
+}
+.l8{
+    margin-left: 17px;
+    font-size: 15px;
+    color:#999999;
+}
+.l9{
+    margin-left: 17px;
+    font-size: 15px;
+    color:#999999;
+}
+.l10{
+    margin-left: 17px;
+    font-size: 15px;
+    color:#999999;
+}
+.l11{
+    margin-left: 17px;
+    font-size: 15px;
+    color:#999999;
+}
+.l12{
+margin-left: 17px;
+    font-size: 15px;
+    color:#999999;
+}
+.l13{
+margin-left: 17px;
+    font-size: 15px;
+    color:#999999;
+}
+.l14{
+margin-left: 17px;
+    font-size: 15px;
+    color:#999999;
+}
+.l15{
+  margin-left: 24px;
+    font-size: 11px;  
+    margin-top: 3px;
+    color:#999999;
+}
+.l16{
+margin-left: 17px;
+    font-size: 15px;
+}
+
+.grandlogo{
+    margin-left: 26%;
+    margin-top: -33px;
+    width: 610px;
 }
 .lotdelistes:hover{
     line-height: 28px;
@@ -54,6 +213,9 @@ ul li{
     font-family:Helvetica, sans-serif;
     font-size: 12px;
 }
+.toptopbar{
+    
+}
 .toptop1 p{
     font-family: Helvetica, sans-serif;
     font-size: 12px;
@@ -62,6 +224,7 @@ ul li{
 .visible p{
     font-family: Helvetica, sans-serif;
     font-size: 12px;
+
 }
 .croixtoptop{
     font-family: Helvetica, sans-serif;
@@ -93,8 +256,9 @@ ul{
     display: flex;
     height: 35px;
     color: #999999;
-    margin-top: -11px;
-    
+    margin-top: -10px !important;
+    width: 99%;
+    margin: 0;
 }
 .vert{
     color: #075700;
@@ -103,6 +267,8 @@ ul{
     font-weight: 300;
     font-family: Helvetica, sans-serif;
     text-decoration: none solid rgb(7, 87, 0);
+    margin-top: 11px;
+    margin-left: 5px;
 }
 .rouge{
    
@@ -112,16 +278,17 @@ ul{
     font-weight: 300;
     font-family: Helvetica, sans-serif;
     text-decoration: none solid rgb(186, 3, 3);
+    margin-top: 11px;
+    margin-left: 2px;
 }
 
 
 .topbar2 ul li{
     display: flex;
-    width: 145px;
+    width: 150px;
 }
 .topbar2 ul li p{
-    display: flex;
-    width: 175px;
+    width: 150px;
 justify-content: center;
 }
 
@@ -130,12 +297,12 @@ justify-content: center;
     z-index: 2;
 }
 .p6{
-    margin-left: 120px;
+    margin-left: 100px;
     margin-top: -18px;
     color: #ffffff ;
 }
 .p5{
-    margin-left: 100px;
+    margin-left: 50px;
     margin-top: -18px;
     color: #ffffff ;
 }
@@ -159,6 +326,7 @@ justify-content: center;
     margin-top: -18px;
     color: #ffffff ;
 }
+
 .topbar3 .titre h1{
     font-size: 52px;
     color: #000000;
@@ -178,7 +346,8 @@ margin-left: 40%;
 margin-top: -45px;
 }
 .soustitre1{
-    margin-top: 60px;
+    margin-top: -10px;
+    margin-left: 70px;
     }
 .soustitre1 ul li{
   width: 200px;
@@ -186,6 +355,10 @@ margin-top: -45px;
     }
 .soustitre1 ul li select{
     border: none;
+    }
+    .soustitre2{
+        margin-top: 0px;
+        padding-bottom: -50px;
     }
     .soustitre2 ul{
         display: flex;
@@ -232,21 +405,26 @@ margin-top: -45px;
                 margin-top: 0px;
             }
           .gtrait1{
-              width: 100%;
+              width: 1330px;
               height: 5px;
               color: grey;
               border-top: 1px solid grey;
+              margin-top: -15px;
         }
 
         .gtrait2{
-            width: 96%;
+            width: 94%;
             height: 5px;
             color: rgb(233, 230, 230);
             border-top: 1px solid rgb(177, 174, 174);
             margin-left: 30px;
+            margin-top: -15px;
       }
       main .h1gauche1{
         width: 20%;   
+    }
+    main{
+        margin-left: 30px;
     }
 
 main .h1gauche2{
@@ -260,15 +438,39 @@ main .h1gauche2{
 }
 .article2degauche ul{
 width:20%;
-margin-left:-30px;
+margin-left:-40px;
 font-weight: 400;
 font-family:sans-serif;
 }
 .article3degauche ul{
     width:20%;
-    margin-left:-30px;
+    margin-left:-40px;
     font-weight: 400;
     font-family:sans-serif;
+}
+.article3degauche ul li p{
+    font-family: 'Retina';
+    font-weight: bolder;
+    font-size: 13px;
+}
+.space2{
+    padding-left: 30px;
+    margin-left: -13px;
+}
+.space1{
+    padding-left: 30px;
+    margin-left: -13px;
+}
+.ambigu1{
+margin-left: 17px;
+}
+.ambigu2{
+margin-left: 17px;
+}
+.article2degauche ul li {
+    font-family: 'Retina';
+    font-weight: bolder;
+    font-size: 13px;
 }
 
 .h1gauche3{
@@ -322,19 +524,23 @@ font-family:sans-serif;
         width: 1px;
         height:1100px;
         border-right: 1px solid grey;
-        left: 300px;
+        left: 330px;
     }
     .article1centre{
         width: 30%;
         height: 1000px;
-        margin-left: 23%;
+        margin-left:310px;
         margin-top:-350px;
     }
   .p1artcentre{
-      margin-top:-480px;
+      margin-top:-420px;
       font-size: 20px;
       color:rgb(41, 37, 37);
       font-weight: 600;
+  }
+  .point{
+    width: 14px;
+    
   }
   .p2artcentre{
       margin-top: -5px;
@@ -350,6 +556,11 @@ font-family:sans-serif;
 width: 25%;
 top: 800px;
   }
+  .art3centre ul li p{
+    font-family: 'Retina';
+    font-weight: bolder;
+    font-size: 13px;
+  }
   .art3centre h1{
       font-size: 20px;
   }
@@ -360,9 +571,9 @@ top: 800px;
         line-height:22px;
 }
 .art3centre li{
-    font-size: 14px;
+    font-size: 12px;
     width: 350px;   
-    font-family:sans-serif;
+    font-family:'Retina';
     margin-left: -40px;
     line-height: 24px;
     font-weight: 600;
@@ -373,7 +584,7 @@ top: 800px;
     height:1px;
     border-top:1px solid grey;
     top: 1200px;
-    left: 320px;
+    left: 353px;
  }
  .traitducentre4{
      width:27%;
@@ -401,7 +612,7 @@ top: 800px;
     height:1px;
     border-top:1px solid grey;
     top: 800px;
-    left: 312px;
+    left: 351px;
   }
   .trait1centre{
       position: absolute;
@@ -409,7 +620,7 @@ top: 800px;
       height:1100px;
       border-left: 1px solid grey;
       top: 328px;
-      left: 52%;
+      left: 730px;
   }
   .trait1droite{
     position: absolute;
@@ -417,25 +628,27 @@ top: 800px;
     height:5580px;
     border-left: 1px solid grey;
     top: 328px;
-    left: 70%;
+    left: 970px;
     opacity: 0.4;
 }
+
 .img1droite{
     z-index: 2;
     position: absolute;
     top: 328px;
-    left: 53%;
+    left: 747px;
 }
-.img2droite{z-index: 2;
+.img2droite{
+    z-index: 2;
     position: absolute;
     top: 100px;
-    left:0%;
+    left:0px;
 }
 .img3droite{
     z-index: 2;
     position: absolute;
     top: 800px;
-    left:53%;
+    left: 747px;
 }
 .p2img2droite{
     margin-top: 260px;
@@ -449,27 +662,29 @@ top: 800px;
 }
 .p2img4droite{
     margin-top: 760px;
+    
 }
 
 .img4droite{
     position: absolute;
-    left:53%;
+    left: 747px;
     top:1050px;
 }
+
 .lot3 p{
     position: absolute;
-    font-size: 17px;
+    font-size: 16px;
     color:rgb(41, 37, 37);
     font-weight: 600;
     top: 455px;
-    left: 53%;
-    width:17%;
+    left: 747px;
+    width:16%;
 }
 
 .icohr{
     position: absolute;
     top: 520px;
-    left: 53%;
+    margin-left: 710px;
 }
 .icohr1{
     position: absolute;
@@ -479,11 +694,11 @@ top: 800px;
 .graph{
     position: absolute;
     top: 300px;
-    left: 71%;
+    left: 73%;
 }
 .divfin{
     position: absolute;
-    left: 72%;
+    left: 74%;
     top: 650px;
 }
 .divfin .opi{
@@ -513,15 +728,17 @@ top: 800px;
     width: 910px;
     height: 1px;
     border-top:1px solid grey;
-    margin-top: -780px;
-    margin-left: 10px;
+    margin-top: -690px;
+    margin-left: 30px;
 }
 .premiersousbloc{
-display: flex;    
+display: flex;  
+margin-top: 20px;  
 }
 .divgauche{
     width: 178px;
     height: 180px;
+    margin-left: 20px;
 }
 .divimg{
     margin-top: 20px;
@@ -542,7 +759,7 @@ display: flex;
     height: 180px;
     font-size: 25px;
     font-size: serif;
-    margin-left: 25px;
+    margin-left: 14px;
     margin-bottom: 30px;
 }
 .divcentre{
@@ -568,7 +785,7 @@ audio{
     position: absolute;
     width: 400px;
     background-color: white;
-   top: 1600px;
+   top: 1620px;
 }
 .droite{
     width: 130px;
@@ -577,7 +794,7 @@ audio{
 }
 .droite .a51{
     position: absolute;
-    top: 1490px;
+    top: 1515px;
     margin-left: -10px;
     font-family: sans-serif;
     font-weight: 300;
@@ -586,7 +803,7 @@ audio{
 
 .droite .h52{
     position: absolute;
-    top: 1510px;
+    top: 1530px;
     margin-left: 40px;
     font-family: sans-serif;
     font-weight: 300;
@@ -594,8 +811,8 @@ audio{
 }
 .btnplus1{
     position: absolute;
-    top: 1540px;
-    margin-left: 5px;
+    top: 1550px;
+    margin-left: 4px;
     font-family: sans-serif;
     width: 80px;
     height: 35px;
@@ -608,14 +825,14 @@ audio{
     height: 1px;
     border-top:1px solid grey;
     margin-top: 90px;
-    margin-left: 10px;
+    margin-left: 30px;
 }
 .mediane2{
     width: 910px;
     height: 1px;
     border-top:1px solid grey;
     margin-top: 90px;
-    margin-left: 10px;
+    margin-left: 30px;
 }
 .droite .subscribe{
     font-family: sans-serif;
@@ -627,7 +844,7 @@ audio{
 .troisimg{
 display: flex;
 margin-top: 26px;
-margin-left: 13px;
+margin-left: 30px;
 }
 .troisimg1{
 width: 280px;
@@ -651,13 +868,24 @@ width: 280px;
     margin-left:37px;
 }
 .troisimg3 h6{
-    font-family: 'Escrow';
+    font-family: 'Retina';
  margin-top: 7px;
+ font-weight: normal;
 }
 .troisimg3 h2{
-   margin-top: -13px;
+   margin-top: -20px;
    font-size: 20px;
    width: 290px;
+   }
+   .icone3img1{
+    margin-top: -20px;
+    margin-left: 20px;
+    font-size: 14px;
+   }
+   .icone3img2{
+    margin-top: -20px;
+    margin-left: 20px;
+    font-size: 14px;
    }
 .imgvid{
     width: 298px;
@@ -665,6 +893,7 @@ width: 280px;
 
 .columnists{
 display: flex;
+margin-left: 10px;
 }
 
 .columnistgauche{
@@ -679,8 +908,10 @@ color: #333333;
 }
 .colimg1text h6{
     color: #333333;
-    font-size: 12px;
-    font-family: 'Escrow';
+    font-size: 14px;
+    font-family: 'Times New Roman';
+    font-weight: normal;
+    margin-top: -10px;
 }
 
 .columnistgauche img{
@@ -703,7 +934,9 @@ margin-left: 10px;
 .columnistdroite h6{
     margin-top: 5px;
     margin-left: 10px;
-    font-family: 'Escrow';
+    font-family: 'Times New Roman';
+    font-weight: normal;
+    font-size: 14px;
 }
 .columnistcentre img{
     border-radius: 50%;
@@ -719,7 +952,9 @@ margin-left: 10px;
 .columnistdroite h6{
     margin-top: -5px;
     margin-left: 10px;
-    font-family: 'Escrow';
+    font-family: 'Times New Roman';
+    font-weight: normal;
+    font-size: 14px;
 }
 .columnistdroite img{
     border-radius: 50%;
@@ -741,13 +976,13 @@ margin-left: 10px;
     height: 1px;
     border-top:1px solid grey;
     margin-top: 10px;
-    margin-left: 10px;
+    margin-left: 30px;
 }
 
 .businessfinances{
     font-family: 'Retina';
     display: flex;
-    margin-left: 13px;
+    margin-left: 40px;
 }
 .businessfinancesword{
     font-family: 'Retina';
@@ -762,6 +997,7 @@ margin-left: 10px;
 }
 .businessfinance{
     display: flex;
+    margin-left: 30px;
 }
 .businessfinance h3{
     font-family: 'Escrow';
@@ -771,7 +1007,7 @@ margin-left: 10px;
     font-size: 14px ;
 }
 .businessfinancesus{
-    margin-left: 40px;
+    margin-left: 33px;
     font-family: 'Retina';
 }
 .lg{
@@ -794,12 +1030,12 @@ margin-left: 12px;
 .fleche2{
     position: absolute;
     margin-top: -40px;
-    margin-left: 210px;
+    margin-left: 245px;
 }
 .fleche4{
     position: absolute;
-    margin-top: -40px;
-    margin-left: 70px;
+    margin-top: -39px;
+    margin-left: 80px;
 }
 
 .fleche5{
@@ -851,7 +1087,7 @@ margin-left: 12px;
     height: 1px;
     border-top:1px solid grey;
     margin-top: 70px;
-    margin-left: 20px;
+    margin-left: 33px;
 }
 .mediane7{
     width: 880px;
@@ -859,13 +1095,15 @@ margin-left: 12px;
     border-top:1px solid grey;
     margin-top: 20px;
     margin-left: 30px;
+    position: absolute;
+    top: 4620px;
 }
 .divworld{
     display: flex;
 }
 .divworld1{
     width: 445px;
-    margin-left: 35px;
+    margin-left: 50px;
     display: flex;
 }
 .div1dworld h1{
@@ -882,16 +1120,82 @@ margin-left: 12px;
     .li1{
         width: 507px;
         height: 1px;
-       
-        margin-left: 19px;
+        margin-left: 30px;
         position: absolute;
+        border-top: 1px solid transparent;
+        
     }
     .li2{
         position: absolute;
         width: 342px;
         height: 1px;
-      
         margin-left: 570px;
+        border-top: 1px solid transparent;
+    }
+    .li4{
+
+    }
+    .li5{
+        
+    }
+    .li6{
+        
+    }
+    .li7{
+        
+    }
+    .li8{
+        
+    }
+    .li9{
+        
+    }
+    .li10{
+        
+    }
+    .li11{
+        
+    }
+    .li12{
+        
+    }
+    .li13{
+        
+    }
+    .li14{
+        
+    }
+    .li15{
+      font-size: 11px !important;  
+      margin-top: 1px !important ;
+      margin-left: 35px !important;
+    }
+    .li16{
+        margin-left: 10px !important;
+        margin-top: -2px !important;
+    }
+    .print{
+        position: absolute;
+        left: 505px;
+
+    }
+    .print1{
+            margin-left: 10px !important;
+    }
+    .print2{
+        margin-left: -20px !important ;
+    }
+    .print3{
+        margin-left: -60px !important ;
+    }
+    .print4{
+        margin-left: -40px !important ;
+    }
+    .print ul li p{
+        width: 100px !important;
+    }
+    .lang{
+        margin-left: -210px !important;
     }
   .icallife{
         width: 10px;
@@ -903,7 +1207,8 @@ margin-left: 12px;
     .lifework{
         display: flex;
         position: absolute;
-        top: 3990px;
+        top: 4020px;
+        left: 20px;
     }
     .barbecuegauche{
         width: 480px;
@@ -976,25 +1281,39 @@ margin-left: 12px;
     }
     .conjuring{
         position: absolute;
-        top: 470px;
+        top: 490px;
         font-family: 'Escrow';
+    }
+    .lignc{
+        width: 350px;
+        height: 1px;
+        border-top: 1px solid grey;
+        margin-top: -10px;
+        margin-bottom:10px;
     }
     .conjup{
         position: absolute;
-        top: 520px;
+        top: 530px;
         font-family: 'Retina';
     }
+    .tpforus{
+        position:absolute;
+        left:990px;
+        top:2850px;
+        width:400px;
+    }
+
     .vidiplome{
         position: absolute;
-        margin-left: 30px;
+        margin-left: 35px;
         font-family: 'Retina';
-        top: 4620px;
+        top: 4640px;
         color: black;
     }
     .fle{
         position: absolute;
         margin-left: 95px;
-        margin-top: 653px;
+        margin-top: 668px;
         width: 19px;
     }
     .deodiplome{
@@ -1010,19 +1329,22 @@ margin-left: 12px;
     .side{
         width: 400px;
         margin-top: -190%;
-        margin-left: 70%;
+        margin-left: 73%;
     }
     .trside1{
-        width: 320px;
+        width: 307px;
         height: 1px;
         border-top: 1px solid black;
         opacity: 0.5;
-        margin-left: 30px;   
+        margin-left: -1px;   
     }
     .side h2{
         font-family:'Retina';
         font-size: 17px;
         margin-left: 30px;
+    }
+    .sp img{
+        margin-left: 70px !important;
     }
     .sp span{
         font-size:30px;
@@ -1034,6 +1356,9 @@ margin-left: 12px;
     }
     .sp{
         margin-top: -75px;
+        margin-left: -30px;
+        padding-top: -5px;
+        padding-bottom: -105px !important;
     }
   .side img{
       margin-left: 90px;
@@ -1057,6 +1382,10 @@ margin-left: 12px;
     margin-top: 180px;
     
   }
+  .sp .txtside{
+    margin-left: 70px;
+    margin-top: -130px;
+  }
   .txtside{
       width: 280px;
       margin-left: 80px;
@@ -1067,22 +1396,22 @@ margin-left: 12px;
   .iframe{
       position: absolute;
    left: 1185px;
-   top: 4560px;
+   top: 4655px;
   }
   .iframe1{
     position: absolute;
     left: 1185px;
-    top: 4680px;
+    top: 4770px;
 }
 .iframe2{
     position: absolute;
     left: 1185px;
-    top: 4800px;
+    top: 4900px;
 }
 .iframe3{
     position: absolute;
     left: 1185px;
-    top: 4950px;
+    top: 5050px;
 }
 .trs0{
     color:#000000 !important;
@@ -1092,24 +1421,16 @@ margin-left: 12px;
       width: 140px;
   }
   .trside2{
-    width: 320px;
+    width: 300px;
     height: 1px;
     border-top: 1px solid black;
     opacity: 0.5;
-    margin-left: 30px;  
-    margin-top: -10px;
+    margin-left: 5px;  
+    margin-top: -5px;
     opacity: 0.1;
     padding-top: -25px;
   }
-  .trside2{
-    width: 320px;
-    height: 1px;
-    border-top: 1px solid black;
-    opacity: 0.5;
-    margin-left: 30px;  
-    margin-top: -5px;
-    
-  }
+ 
   .side h2{
     
       font-weight: 100;
@@ -1118,6 +1439,7 @@ margin-left: 12px;
       margin-top: 15px;
       padding-bottom:20px;
       color: rgb(0, 0, 0);
+      margin-left: -10px;
   }
   .mostpopular{
       font-family: "Escng";
@@ -1166,45 +1488,54 @@ top: 2600px;
 }
 
 .trsidefin1{
-    width: 320px;
+    width: 307px;
     height: 1px;
     border-top: 1px solid #bb8e8e;
     opacity: 0.5;
-    margin-left: 30px;  
+    margin-left: 0px;  
     margin-top: -5px;
 }
 .jreport img{
     margin-top: -10px;
-    margin-left: 30px;
+    margin-left: 7px;
     width: 290px;
 }
 .jreport h4{
     font-family: "Times New Roman";
     font-family:17px;
     width: 320px;
-    margin-left:30px;
+    margin-left:7px;
 }
 .jreport p{
     width: 310px;
-    margin-left:30px;
+    margin-left:7px;
     font-family: 'Retina';
     font-size: 14px;
 }
 .minread{
   margin-top: -20px;  
+  padding-left: 15px;
 }
 .time{
-    margin-left: 35px;
+    margin-left: 7px;
     margin-top: -11px;
+}
+.jourep{
+    margin-left: 5px !important;
 }
 .jreport ul li{
     list-style:disc;
     font-family: 'Times New Roman';
     font-size: 15px;
+    
 }
 .jreport ul{
  width: 250px;
  margin-top: -10px;
+ margin-left: -18px !important;
+}
+.jreport{
+    margin-left: -8px;
 }
 .sousvid{
     display: flex;
@@ -1257,12 +1588,16 @@ width: 150px;
 footer{
    width: 1340px;
    height: 600px; 
-   background-color: #F4F4F4;
 }
 .topfoot{
     width: 1340px;
     height: 44px;
-    background-color: #E9E9E9 !important;
+    background-color: #E9E9E9!important;
+}
+.topfoot p{
+font-family: 'Times New Roman';
+font-size: 12px;
+margin-left: 20px;
 }
 .lgft{
     width: 290px;
@@ -1274,9 +1609,10 @@ footer{
 .select{
     position: absolute;
     background-color: #E9E9E9;   
-    top: 5937px;
+    top: 5925px;
     left: 370px;
 }
+
 .topfootgauche{
     display:flex;
     position: absolute;
@@ -1291,11 +1627,12 @@ footer{
 .footmain{
     height: 316px;
     display: flex;
+    background-color: #F4F4F4;
 }
 
 .footmain ul li{
   font-family: 'Retina';
-  font-size: 12px;
+  font-size: 11px;
   line-height: 26px;
 }
 .horizon{
@@ -1331,16 +1668,58 @@ footer{
     opacity: 0.4;
 }
 .sousfooter{
-    width: 550px;
+    width: 100%;
     height: 50px;
+    background-color: #F4F4F4;
+    margin-top: -16px;
   
 }
 .sousfooter ul{
     display: flex;
-   margin-left: 58%; 
+   margin-left: 27%; 
+   padding-top: 14px;
 }
 .sousfooter ul li{
     display: flex;
    margin-left: 20px; 
+ 
+}
+.avantfin{
+    height: 78px;
+    border: 1px solid transparent;
+    display: flex;
+    text-align: center;
+    background-color: #E9E9E9;
+}
+.avantfin ul{
+    display: flex;
+    margin-left: 400px;
+
+}
+.avantfin ul li{
+    display: flex;
+    font-family: 'Retina';
+    font-style: 12px;
+    
+    
+}
+
+.avf2{
+    margin-top: 25px;
+    margin-left: -400px !important;
+}
+.avf22{
+    margin-top: 35px;
+    margin-left: -400px !important;
+    font-size: 7px !important;
+    font-family: 'Retina light' !important;
+}
+.dowjones{
+    width: 100px;
+    text-align: center;
+}
+.footerend{
+    margin-left: -100px;
+    background-color: #F4F4F4;
 }
 
